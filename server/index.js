@@ -33,4 +33,4 @@ app.use('/api/v1/on-covid-19', routes);
 const PORT = process.env.PORT || 3000;
 http
     .createServer(app)
-    .listen(PORT, () => console.log(`server running om port ${PORT}`));
+    .listen(PORT, () => console.log(`server running on port ${PORT}`));
