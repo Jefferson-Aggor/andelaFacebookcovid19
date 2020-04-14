@@ -77,7 +77,7 @@ const severeImpactEstimator = (data) => {
   );
   const { avgDailyIncomePopulation, avgDailyIncomeInUSD } = data.region;
   let dollarsInFlight = (infectionsByRequestedTime * avgDailyIncomePopulation * avgDailyIncomeInUSD)
-   / data.timeToElapse;
+    / data.timeToElapse;
 
   dollarsInFlight = parseInt(dollarsInFlight, 10);
 
